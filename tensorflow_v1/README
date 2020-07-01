@@ -1,0 +1,24 @@
+Steps to get started
+
+1.) Install k-wave
+2.) Setup (new) python environment
+    - Either via Anaconda
+    - In terminal via 'conda create'
+3.) Install needed packages in pyhton environment. Open terminal and install 
+    following packages via 'pip install PACKAGE_NAME':
+    - h5py
+    - matplotlib
+    - numpy (probably installed)
+    - tensorflow (if 'pip install' fails, try 'conda install')
+    - scikit-image
+    
+    
+Run codes in order:
+i.) createForwMat.m
+ii.) callNetwork.py
+
+4.) If you want to use tensorboard
+    - set 'useTensorboard = True' in callNetwork.py, line 36
+    - Change directory "tensorboardDefaultDir =  '/Path4tensorboard/' " in PATnets.py, line 14
+      (This is were the logging files will be saved) See https://www.tensorflow.org/tensorboard
+      for information how to call tensorboard
