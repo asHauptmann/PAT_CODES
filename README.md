@@ -7,5 +7,5 @@ Provided codes will be developed further and updated. We aim to provide full acc
 Current status (28 October, 2020):
 
 - Tensorflow v1: All examples implemented
-- pyTorch: post-processing with U-net implemented
+- pyTorch: post-processing with U-net implemented (almost)
 
