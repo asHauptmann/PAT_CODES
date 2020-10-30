@@ -1,0 +1,20 @@
+Steps to get started
+
+1.) Install k-wave
+2.) Setup (new) python environment
+    - Either via Anaconda
+    - In terminal via 'conda create'
+3.) Install needed packages in pyhton environment. Open terminal and install 
+    following packages via 'pip install PACKAGE_NAME':
+    - h5py
+    - matplotlib
+    - numpy (probably installed)
+    - pytorch
+    - scikit-image
+    - tensorboardX (for visualiation)
+    
+    
+Run codes in order:
+i.) createForwMat.m
+ii.) callNetwork_train.py
+

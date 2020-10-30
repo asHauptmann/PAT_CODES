@@ -1,3 +1,6 @@
+''' Evaluation script Learned image recontruction for PAT
+https://doi.org/10.1117/1.JBO.25.11.112903
+Written 2020 by Andreas Hauptmann, University of Oulu and UCL'''
 
 import PATnets as PAT
 import h5py

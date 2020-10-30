@@ -1,3 +1,7 @@
+''' Training script Learned image recontruction for PAT
+https://doi.org/10.1117/1.JBO.25.11.112903
+Written 2020 by Andreas Hauptmann, University of Oulu and UCL'''
+
 
 import PATnets as PAT
 import h5py
@@ -23,8 +27,8 @@ tLen   = int(rows/imSize)
 
 
 #Create training set
-trainSet = '/PhantomData/trainDataCombined.mat'
-testSet  = '/PhantomData/testDataCombined.mat'
+trainSet = 'PhantomData/trainDataCombined.mat'
+testSet  = 'PhantomData/testDataCombined.mat'
 
 trainFlag = True
 
@@ -43,7 +47,7 @@ LGSiter             = 10
 lossFunc    = 'l2_loss'        #'l1_loss, l2_loss'
 netType    = 'resUnet'         # 'Unet, resUnet, LGS, fullyLearned'
 
-experimentName =  netType + 'test' + '_' + lossFunc   #Name for this experiment
+experimentName =  netType + 'test_X5' + '_' + lossFunc   #Name for this experiment
 
 
 noiseLev = 0.01

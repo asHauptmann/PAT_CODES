@@ -15,7 +15,7 @@ Steps to get started
     
 Run codes in order:
 i.) createForwMat.m
-ii.) callNetwork.py
+ii.) callNetwork_train.py
 
 4.) If you want to use tensorboard
     - set 'useTensorboard = True' in callNetwork.py, line 36

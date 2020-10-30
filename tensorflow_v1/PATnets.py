@@ -1,5 +1,6 @@
-''' Class file for 3D Unet for CMR
-# Written 04. October 2018 by Andreas Hauptmann, UCL'''
+''' Class file Learned image recontruction for PAT
+https://doi.org/10.1117/1.JBO.25.11.112903
+Written 2020 by Andreas Hauptmann, University of Oulu and UCL'''
 
 import tensorflow.compat.v1 as tf
 import numpy as np
